@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+   function resposta(){
+   var in = document.querySelector("#op").value
+   var out = document.querySelector("#aq")
+   out.innerHTML = in
+   }
+</script>
+
+<body>
+    <h1>Deu certo??</h1>
+    <input type="text" id="op">
+    <p id="aq"></p>
+    <button onclick="resposta()">Enviar</button>
+</body>
+</html>
