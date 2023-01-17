@@ -12,8 +12,10 @@
    var out = document.querySelector("#aq")
    if (a == "bem" || a == "Bem" || a == "ótimo" || a == "Ótimo" || a == "Muito Bem" || a == "muito bem") {
     out.innerHTML = "Graças a Deus!!&#128591"
-   }else{
+   } else if (a == "Não" || a == "não" || a == "Nada bem" || a == "nada bem" || a == "péssimo" || a == "Péssimo"){
     out.innerHTML = "Lamento por isso, vai ficar tudo bem!!&#128543"
+   } else{
+    out.innerHTML = "Desculpe, não consigo te compreender!!&#129488	"
    }
 }
 </script>
