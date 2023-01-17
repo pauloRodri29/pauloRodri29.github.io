@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Bem Vindo &#129331</title>
 </head>
 <script>
    function resposta(){
    var a = document.querySelector("#op").value
    var out = document.querySelector("#aq")
-   out.innerHTML = a
+   if (a == "bem") {
+    out.innerHTML = "Graças a Deus!!&#128591"
+   }else{
+    out.innerHTML = "Lamento por isso, vai ficar tudo bem!!&#128543"
    }
+}
 </script>
-
 <body>
-    <h1>Deu certo??</h1>
+    <h1>Olá</h1>
+    <p>Como voce está?</p>
     <input type="text" id="op">
     <p id="aq"></p>
-    <button onclick="resposta()">Enviar</button>
+    <button onclick="resposta()">Mandar resposta</button>
 </body>
 </html>
